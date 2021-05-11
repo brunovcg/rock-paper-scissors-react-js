@@ -1,4 +1,5 @@
 import Score from './components/Score/Score'
+import GameBoard from './components/GameBoard/GameBoard'
 import './App.css';
 
 function App() {
@@ -11,11 +12,15 @@ function App() {
         </header>
 
         <main> 
-
+          <GameBoard/>
         </main>
 
         <footer>
-          
+
+          <button>Pedra</button> 
+          <button>Papel</button>
+          <button>Tesoura</button>
+
         </footer>
 
 

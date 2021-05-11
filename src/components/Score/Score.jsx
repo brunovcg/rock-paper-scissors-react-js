@@ -11,7 +11,7 @@ const Score = () => {
                 <div>Player</div>
             </div>
 
-            <div className="scoreTitle">Placar</div>
+            <div className="scoreTitle">Score</div>
 
             <div className="scoreCPU">
                 <div>{0}</div>

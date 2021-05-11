@@ -1,5 +1,6 @@
 import './Score.css'
-const Score = () => {
+
+const Score = (props) => {
 
 
     return(
@@ -7,14 +8,14 @@ const Score = () => {
         <div className="scoreContainer">
 
             <div className="scorePlayer">
-                <div>{0}</div>
+                <div>{props.playerScore}</div>
                 <div>Player</div>
             </div>
 
             <div className="scoreTitle">Score</div>
 
             <div className="scoreCPU">
-                <div>{0}</div>
+                <div>{props.cpuScore}</div>
                 <div>CPU</div>
             </div>
 

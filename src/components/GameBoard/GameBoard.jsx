@@ -1,20 +1,20 @@
 
 import './GameBoard.css'
 
-const GameBoard = () => {
+const GameBoard = (props) => {
 
-
+    
     return (
         <div className="gameBoardContainer">
 
             <div className="gameBoardCPU">
                 <div className="gamePlayerName">CPU</div>
-                <div className="gameBoardChoice">{"Pedra"}</div>
+                <div className="gameBoardChoice">{props.CPUMove}</div>
             </div>
 
             <div className="gameBoardPlayer">
                 <div className="gamePlayerName">Player</div>
-                <div className="gameBoardChoice">{"Papel"}</div>
+                <div className="gameBoardChoice">{props.playerMove}</div>
 
             </div>
 
